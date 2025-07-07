@@ -35,32 +35,26 @@ The **Emotion Reflection Tool** is a modern full-stack web application that allo
 emotion-reflection/
 │
 ├── backend/                  # FastAPI backend
-│   ├── node\_modules/         # (if any)
 │   ├── main.py               # API logic
-│   └── requirements.txt      # Backend dependencies
+│   └── requirements.txt      # Python dependencies
 │
 ├── frontend/                 # React + Vite + Tailwind frontend
-│   ├── node\_modules/         # Frontend dependencies
-│   ├── dist/                 # Production build output
-│   ├── src/                  # React component source code
-│   │   ├── components/       # EmotionForm + EmotionResult
-│   │   ├── types/            # TypeScript types
-│   │   ├── App.tsx           # Main app entry
-│   │   ├── main.tsx          # React DOM render entry
-│   │   └── index.ts          # TS entry
-│   ├── index.html            # HTML entry point
-│   ├── package.json          # NPM dependencies and scripts
-│   ├── vite.config.ts        # Vite configuration
-│   ├── tsconfig\*.json        # TypeScript configs
-│   ├── .gitignore            # Git ignored files
-│   └── eslint.config.js      # ESLint rules
+│   ├── dist/                 # Production build
+│   ├── src/                  # Source code
+│   │   ├── components/       # Reusable components
+│   │   ├── types/            # TypeScript interfaces
+│   │   ├── App.tsx           
+│   │   ├── main.tsx          
+│   │   └── index.ts          
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.ts
 │
-├── screenshots/              # UI Screenshots for README
+├── screenshots/              # UI screenshots for documentation
 │   ├── form.png
 │   └── result.png
 │
 └── README.md                 # Project documentation
-
 ```
 
 ---
@@ -155,9 +149,9 @@ app.add_middleware(
 
 ## 📬 Contact
 
-**Ritik Kumar**
-Frontend Developer & Project Owner
-📧 Email: [ritikrk008@gmail.com](mailto:ritikrk008@gmail.com)
+**Ritik Kumar**  
+Frontend Developer & Project Owner  
+📧 Email: [ritikrk008@gmail.com](mailto:ritikrk008@gmail.com)  
 📱 Phone: +91 9693895842
 
 ---
